@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class LinkedList {
-
+    static int max = 0;
     class Node {
         int data;
         Node next;
@@ -14,10 +14,12 @@ public class LinkedList {
         
     }
     Node head;
-    
+
     void insert(int data,int pos)
     {
+        max++;
         Node temp = new Node(data);
+        if(max>=pos){
         if(head==null||pos==0)
         head = temp;
         else{
@@ -30,6 +32,9 @@ public class LinkedList {
             temp.next = ptr.next;
             ptr.next = temp;
         }
+    }
+    else
+    System.out.println("Invalid Position");
     }
 
     void display()
@@ -44,6 +49,8 @@ public class LinkedList {
 
     void delete(int pos)
     {
+        max--;
+        if(max<pos||pos<0)
         if(pos==0)
         head = head.next;
         else{
