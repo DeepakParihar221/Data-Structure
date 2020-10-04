@@ -21,7 +21,10 @@ public class LinkedList {
         Node temp = new Node(data);
         if(max>=pos){
         if(head==null||pos==0)
-        head = temp;
+        {   
+            temp.next = head;
+            head = temp;
+        }
         else{
             Node ptr = head;
             while(pos-- - 1 > 0)
