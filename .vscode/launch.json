@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedList<Data-Structure_ecb7bca>",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "Data-Structure_ecb7bca"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseList<Data-Structure_ecb7bca>",
+            "request": "launch",
+            "mainClass": "ReverseList",
+            "projectName": "Data-Structure_ecb7bca"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwappingListNode<Data-Structure_ecb7bca>",
+            "request": "launch",
+            "mainClass": "SwappingListNode",
+            "projectName": "Data-Structure_ecb7bca"
+        }
+    ]
+}

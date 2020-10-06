@@ -117,5 +117,6 @@ public class SwappingListNode {
                 break;
             }
         }
+        sc.close();
     }
 }
