@@ -73,5 +73,6 @@ public class Stack {
                 break;
             }
         }
+        sc.close();
     }
 }
